@@ -78,7 +78,7 @@ suite('Functional Tests', function () {
 });
 
 const Browser = require('zombie');
-Browser.site = 'http://127.0.0.1:3000';
+Browser.site = 'https://ba85b54c-4147-43b3-9e96-dfeae87cc45f-00-1dexhqxils27d.worf.replit.dev/';
 suite('Functional Tests with Zombie.js', function() {
   const browser = new Browser();
   

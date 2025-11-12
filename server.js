@@ -9,7 +9,6 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 app.get('/', async function (req, res) {
-  console.log("hello");
   res.sendFile(__dirname + '/views/index.html');
 })
 
